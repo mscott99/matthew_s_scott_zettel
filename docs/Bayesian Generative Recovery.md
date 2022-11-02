@@ -23,9 +23,11 @@ We define $\hat{c}$ such that it is dependent on $\hat{z}$ in exactly the same w
 ## Part 2: Bounding the Probability of Failure
 
 We wish to bound $P(\hat{c} \neq c^*)$. First we decompose this term by values of $c^*$.
+
 $$
 P(\hat{c} \neq c^*) = \sum_{i = 1}^M P(\hat{c} \neq i, c^* =i)
 $$
+
 For simplicity, we will focus on evaluating $P(\hat{c} \neq 0, c^* = 0)$. We will proceed by letting the event $\{ c^* = 0 \}$ occur first, and then decompose on all the possibilities of y.
 $$
 P(\hat{c}\neq 0, c^*=0) = P(c^*=0)P(\hat{c} \neq 0|c^*=0) = P(c^* =0) \int P(\hat{c} \neq 0|y, c^*=0)p_{y}(y| c^*=0) \, dy
