@@ -2,6 +2,7 @@
 tags:
 - blog/draft
 - knownTheory
+- longform
 ---
 # Bayesian Recovery
 We first set out to describe the problem and what we seek as a result. Given a signal $z^* \in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$ we measure $z^*$ with a measurement matrix $A$ which gives us the (then known) measurement vector $y:= Az^*$. Once $y$ is known, we examine the posterior variable $\hat{z} \sim p_{z|y}(\cdot)$. 
@@ -12,7 +13,7 @@ Specifically, we define $\hat{z}$ from two properties:
 
 Then we wish to check that the probability that $\hat{z}$ is far from $z^*$ is low. 
 
-To show the result, we split the support of  $z^*$ into small components of radius $\varepsilon$ and show that with high probability $z^*$ and $\hat{z}$ lie in the same component.
+To show the result, we split the support of  $z^*$ into small components of radius $\frac{\varepsilon}{2}$ and show that with high probability $z^*$ and $\hat{z}$ lie in the same component.
 
 ## Part 1: Splitting the Prior Into Components
 We will use dependence on some deterministic random variable to split the prior into components. Introduce the random variable $c^* \in \{ 0,\dots,M \}$ which we make dependent on $z^*$ in a way that lets us make a good split
@@ -80,9 +81,6 @@ This factor of $M$ can probably be removed because of the loose upper bound from
 ## Part 4: Recovery
 
 Recovery occurs because a Gaussian matrix always separates a sphere from its surroundings with high probability. Hence we get such a probability for each sphere. With high probability this separation is great for all the balls. Then conditionally on this, with high probability $\hat{c} = c^*$ and therefore $\hat{c}$ and $c^*$ are within a distance $\varepsilon$ of each other.
-
-
-![[Uneven-Coherence]]
 
 ---
 Main source: [[@jalalInstanceOptimalCompressedSensing2021]]
