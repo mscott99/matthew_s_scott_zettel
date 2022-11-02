@@ -1,6 +1,7 @@
-# Obsidian Notes
+# Matthew's Blog
 
-Publish your public notes with MkDocs
+## Featured
+- [[Bayesian Recovery]] from [[Recovery]]
 
 ## Hello World!
 
