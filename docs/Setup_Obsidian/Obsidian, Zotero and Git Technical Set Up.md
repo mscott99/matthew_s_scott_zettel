@@ -12,7 +12,7 @@
 			- Command Pane
 			- Tags vs Links
 			- add Dataview
-			- Home note [link](https://raw.githubusercontent.com/mscott99/matthewscott-blog/main/files/Simplified Home.md)
+			- Home note ->  [get](https://raw.githubusercontent.com/mscott99/matthewscott-blog/main/files/Simplified%20Home%20Note.md)
 			- Add Calendar Plugin (optional)
 	- Git
 		- Download git (desktop) and create github account if necessary
@@ -24,7 +24,7 @@
 		- Install Zotero Connector in your browser.
 		- Install Zotero Integration Plugin
 			- Configure Settings: 
-				- Add pre-made template to Templates folder add it to Template file [link](https://raw.githubusercontent.com/mscott99/matthewscott-blog/main/files/Zotero_Template.md)
+				- Add pre-made template to Templates folder add it to Template file -> [get](https://raw.githubusercontent.com/mscott99/matthewscott-blog/main/files/Zotero_Template.md)
 				- Add import format
 				- Output path: References/@{{citekey}}.md
 				- Note import location: References/
