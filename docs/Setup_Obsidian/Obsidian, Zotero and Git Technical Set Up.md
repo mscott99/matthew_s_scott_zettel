@@ -24,7 +24,7 @@
 		- Install Zotero Connector in your browser.
 		- Install Zotero Integration Plugin
 			- Configure Settings: 
-				- Add pre-made template to Templates folder add it to Template file [[My Zotero Template]].
+				- Add pre-made template to Templates folder add it to Template file [[Zotero_Template]].  [link](./Zotero_Template)
 				- Add import format
 				- Output path: References/@{{citekey}}.md
 				- Note import location: References/
