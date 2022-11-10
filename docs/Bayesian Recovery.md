@@ -1,28 +1,32 @@
 ---
 tags:
-- blog/draft
+- blog
 - knownTheory
 - longform
 ---
 # Bayesian Recovery
-We first set out to describe the problem and what we seek as a result. Given a signal $z^* \in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$ we measure $z^*$ with a measurement matrix $A$ which gives us the (then known) measurement vector $y:= Az^*$. Once $y$ is known, we examine the posterior variable $\hat{z} \sim p_{z|y}(\cdot)$. 
+We first set out to describe the problem and what we seek as a result. Given a signal $z^* \in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$ we measure $z^*$ with a random gaussian measurement matrix $A \in \mathbb{R}^{m \times n}$ with $m \leq n$ where each entry $A_{ij}$ is distributed i.i.d. $\sim \mathcal{N}\left( 0, \frac{1}{m} \right)$ which gives us the (then known) measurement vector $y:= Az^*$. Once $y$ is known, we examine the posterior variable $\hat{z} \sim p_{z|y}(\cdot)$. 
 
 Specifically, we define $\hat{z}$ from two properties:
-- $\hat{z}$ is distributed according to the same distribution as $z^*$
-- $\hat{z}$ is conditionally independent of $z^*$ with respect to $y$;  $\hat{z}$ and $z^*$ are independent in all other respects than their mutual link to $y$: $Az^*=y=A\hat{z}$.
 
-Then we wish to check that the probability that $\hat{z}$ is far from $z^*$ is low. 
+-  $\hat{z}$ is distributed according to the same distribution as $z^*$
+- $\hat{z}$ is conditionally independent of $z^*$ with respect to $y$; this means that the dependence between the random variables $\hat{z}$ and $z^*$ only lies in the fact that $Az^*=y=A\hat{z}$.
 
-To show the result, we split the support of  $z^*$ into small components of radius $\frac{\varepsilon}{2}$ and show that with high probability $z^*$ and $\hat{z}$ lie in the same component.
+Notice that these two properties are sufficiently constraining to make $\hat{z}$ uniquely defined.
+
+We will try to establish that with high probability, $\hat{z}$ is no more than $\varepsilon$-away from $z^*$. This last sentence is what we call "signal recovery" because we can understand $\hat{z}$ as the conditioned $z^*$ once $y$ is known. Hence $\hat{z}$ is the posterior random variable
+
+To show the result, we partition the support of  $z^*$ into small components $\{ E_{i} \}$ with each $E_{i} \subseteq \mathbb{R}^n$ of radius no more than $\frac{\varepsilon}{2}$, and show that with high probability $z^*$ and $\hat{z}$ lie in the same component.
 
 ## Part 1: Splitting the Prior Into Components
-We will use dependence on some deterministic random variable to split the prior into components. Introduce the random variable $c^* \in \{ 0,\dots,M \}$ which we make dependent on $z^*$ in a way that lets us make a good split
+
+We will use dependence on some deterministic random variable to split the prior distribution into sub-distributions that are each supported on a single component of the support. Introduce the random variable $c^* \in \{ 0,\dots,M \}$ which we make dependent on $z^*$ in a way that lets us make a good split
 
 $$
 P_{z^*} = \sum_{i=1}^M P_{z^*}(\cdot|c^*=i)P(c=i).
 $$
 
-We make a smart split so that every component is of radius $2\varepsilon$. We make the flawed assumption that if $z_{*}$ and $\hat{z}$ are in different components, then they are "far apart" and we have failure. If they are in the same component, we have success.
+We make a smart split so that each distribution $P_{z^*}(\cdot|c^*=i)$ is supported in a single component $E_{i}$ of radius no more than $\frac{\varepsilon}{2}$. In the event that $\hat{z}$ lands in the same component as $z^*$, we get approximate recovery. We will show that this happens with high probability.
 
 We define $\hat{c}$ such that it is dependent on $\hat{z}$ in exactly the same way as $c^*$ is dependent on $z^*$. Then the event of failure is $\{\hat{c} \neq c^*\}$. Our aim is now to show that this event occurs with low probability, specifically exponentially small in the number of measurements.
 
@@ -78,9 +82,7 @@ $$
 
 This factor of $M$ can probably be removed because of the loose upper bound from before.
 
-## Part 4: Recovery
-
-Recovery occurs because a Gaussian matrix always separates a sphere from its surroundings with high probability. Hence we get such a probability for each sphere. With high probability this separation is great for all the balls. Then conditionally on this, with high probability $\hat{c} = c^*$ and therefore $\hat{c}$ and $c^*$ are within a distance $\varepsilon$ of each other.
+Notice that when the total variation term is large, the probability of failure goes to zero. Hence we find that we have recovery with high probability.
 
 ---
 Main source: [[@jalalInstanceOptimalCompressedSensing2021]]
