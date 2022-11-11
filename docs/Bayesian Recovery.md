@@ -5,9 +5,9 @@ tags:
 - longform
 ---
 # Bayesian Recovery
-We first set out to describe the problem and what we seek as a result. Given a signal $z^* \in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$ we measure $z^*$ with a random gaussian measurement matrix $A \in \mathbb{R}^{m \times n}$ with $m \leq n$ where each entry $A_{ij}$ is distributed i.i.d. $\sim \mathcal{N}\left( 0, \frac{1}{m} \right)$ which gives us the (then known) measurement vector $y:= Az^*$. Once $y$ is known, we examine the posterior variable $\hat{z} \sim p_{z|y}(\cdot)$. 
+We first set out to describe the problem and what we seek as a result. Given a signal $z^* \in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$ we measure $z^*$ with a random gaussian measurement matrix $A \in \mathbb{R}^{m \times n}$ with $m \leq n$ where each entry $A_{ij}$ is distributed i.i.d. $\sim \mathcal{N}\left( 0, \frac{1}{m} \right)$ which gives us the (then known) measurement vector $y:= Az^*$. Once $y$ is known, we examine the posterior variable $\hat{z} \sim p_{z^*|y}(\cdot)$. 
 
-Specifically, we define $\hat{z}$ from two properties:
+Formally, we define $\hat{z}$ as the unique random variable satisfying the following two properties:
 
 -  $\hat{z}$ is distributed according to the same distribution as $z^*$
 - $\hat{z}$ is conditionally independent of $z^*$ with respect to $y$; this means that the dependence between the random variables $\hat{z}$ and $z^*$ only lies in the fact that $Az^*=y=A\hat{z}$.
