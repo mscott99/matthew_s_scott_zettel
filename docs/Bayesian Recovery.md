@@ -4,7 +4,11 @@ tags:
 - knownTheory
 - longform
 ---
+
 # Bayesian Recovery
+## Introduction
+This blog post is an attempt at a an alternative presentation of the results and ideas presented in this [paper](http://arxiv.org/abs/2106.11438).
+## Body
 We first set out to describe the problem and what we seek as a result. Given a signal $z^* \in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$ we measure $z^*$ with a random gaussian measurement matrix $A \in \mathbb{R}^{m \times n}$ with $m \leq n$ where each entry $A_{ij}$ is distributed i.i.d. $\sim \mathcal{N}\left( 0, \frac{1}{m} \right)$ which gives us the (then known) measurement vector $y:= Az^*$. Once $y$ is known, we examine the posterior variable $\hat{z} \sim p_{z^*|y}(\cdot)$. 
 
 Formally, we define $\hat{z}$ as the unique random variable satisfying the following two properties:
@@ -83,9 +87,6 @@ $$
 This factor of $M$ can probably be removed because of the loose upper bound from before.
 
 Notice that when the total variation term is large, the probability of failure goes to zero. Hence we find that we have recovery with high probability.
-
----
+___
 Main source: [[@jalalInstanceOptimalCompressedSensing2021]]
-
----
 [[2022-11-01]]
