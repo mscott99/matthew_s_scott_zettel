@@ -1,4 +1,7 @@
 #blog
+# Possible subjects
+- How to use the paper export plugin: a complete guide.
+- How to write math papers in Obsidian.
 # Technical Setup
 ## Zotero
 - Install Zotero https://www.zotero.org/download/
@@ -12,10 +15,9 @@
 			- Note import location: References/
 	- Optional: Overleaf Zotero integration 
 ## Git
-- Download git (desktop) and create github account if necessary
+- Download git (desktop) and create Github account if necessary
 	- Add collaborators to repository.
 	- Clone repository
-- 
 
 [[Blog Post Setup Obsidian with GPT]]
 
