@@ -1,7 +1,7 @@
 #blog
 # Possible subjects
 - How to use the paper export plugin: a complete guide.
-- How to write math papers in Obsidian.
+- How to, and why, write math papers in Obsidian through the Zettelkasten method.
 # Technical Setup
 ## Zotero
 - Install Zotero https://www.zotero.org/download/
