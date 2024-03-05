@@ -5,7 +5,7 @@ ctime: 2024-03-04
 [[convex analysis]]
 # Convex sets
 Let $X \in \mathbb{R}_+^n$ be a convex  polytope with faces $Ax \leq b$, $x_i \geq 0$ for a matrix $A \in \mathbb{R}^{m \times n}$, and $b \in \mathbb{R}^m$.
-Consider the [[Polar Set]] $X^\circ$ of $X$ in $\mathbb{R}^n_+$, meaning that
+Consider $X^\circ$ the polar set of $X$ in $\mathbb{R}^n_+$, meaning that
 $$
 X^\circ := \{ z \in \mathbb{R}^n_+ | z \cdot x \leq 1 \}.
 $$
@@ -45,10 +45,11 @@ $$
 c \cdot x \leq y^T A x \leq y^T b,
 $$
 and therefore we find that provided that $y$ is feasible (that $y^T A \geq c^T$), then $y^T b$ is an upper bound on the optimum. Therefore we find the dual linear program.
+Maximize
 $$
-\textrm{maximize}_{y \in  \mathbb{R}^m_+}(b^T y)
+ \quad b^T y
 $$
 subject to
 $$
--A^T y \leq -c^T.
+y \in \mathbb{R}^m_+, \quad  -A^T y \leq -c^T.
 $$
