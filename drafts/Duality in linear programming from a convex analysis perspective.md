@@ -3,9 +3,12 @@ ctime: 2024-03-04
 mtime: 2024-03-07
 ---
 [[Blog]] #blog
+[[Duality in linear programming from a Lagrangian perspective]]
 [[convex analysis]]
 # Preliminaries
 > Change the notation to non-infinite vectors and letting $b$ go to zero.
+
+> Useful notions: recession cone.
 ## Extending the space
 Let us introduce $\bar{\mathbb{R}}^n$ to be the vectors in $\mathbb{R}^n$ extended with vectors with infinite magnitude but well-defined direction. For some $v \in \mathbb{R}^n$, let $\bar{v} = \infty v$ be the vector pointing in the direction of $v$ but with infinite magnitude. We extend the canonical inner product to these vectors by letting
 $$
