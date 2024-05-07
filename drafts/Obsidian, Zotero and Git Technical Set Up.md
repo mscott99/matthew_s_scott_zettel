@@ -14,7 +14,7 @@
 			- Output path: References/@{{citekey}}.md
 			- Note import location: References/
 	- Optional: Overleaf Zotero integration 
-## Git
+## Git (optional)
 - Download git (desktop) and create Github account if necessary
 	- Add collaborators to repository.
 	- Clone repository
@@ -58,3 +58,5 @@ Write the next section of a markdown blog tutorial that shows how to set up the 
 	- Click on "Use as template"
 	- Clone the repo to a sub-folder of the obsidian vault.
 	- To post on a personalized domain: add a CNAME file with domain name in the docs folder.****
+# Related
+[[Obsidian Workshop Notes 2]]
