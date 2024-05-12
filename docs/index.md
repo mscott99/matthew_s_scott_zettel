@@ -1,2 +1,1 @@
-# Posts 
-1. [[Bayesian Recovery]]
+1. [[Obsidian, Zotero and Git Technical Set Up]]

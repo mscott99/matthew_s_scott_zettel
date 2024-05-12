@@ -4,7 +4,7 @@ mtime: 2024-03-07
 ---
 [[Blog]] #blog
 [[Duality in linear programming from a Lagrangian perspective]]
-[[convex analysis]]
+[[Convex analysis]]
 # Preliminaries
 > Change the notation to non-infinite vectors and letting $b$ go to zero.
 
