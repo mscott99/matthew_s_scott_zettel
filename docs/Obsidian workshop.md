@@ -3,7 +3,7 @@ ctime: 2024-05-05
 mtime: 2024-05-12
 title: Graph-based writing
 ---
-Alternatives:[[Obsidian Presentation]], [[Ideas of Zettelkasten Slides]].
+See [[index|menu]], [[Obsidian, Zotero and Git Technical Set Up|workflows]]
 # Abstract
 What is the best way to structure a research workflow that will maximize
 efficiency and satisfaction? That would be the Zettelkasten method, a system
@@ -80,10 +80,9 @@ up crucial plugins that will bring your work to the next level.
 		- Formatting concerns (latex).
 		- Good-enough requirements: brainstorms, single sentences of thought, all are notes.
 # How
-- The software: Obsidian
+## Core features of Obsidian
 	- Markdown files: no vendor lock-in. Efficient storage, future-proof, versioning.
 	- Rich plugin ecosystem.
-- Workshop: setting up the environment.
 	- Base environment
 		- Command pannel
 		- Quick switcher.
@@ -91,42 +90,53 @@ up crucial plugins that will bring your work to the next level.
 		- Figures.
 		- Tags: role of tags.
 		- Longforms and embeds.
-	- Setting up citations: [[Obsidian, Zotero and Git Technical Set Up#technical-setup#zotero]]
-	- Make a home note: [[Obsidian, Zotero and Git Technical Set Up#technical-setup#make-a-home-note]] 
-	- Plugins (essential)
-		- Latex suite
-		- Note composer
-		- Backlinks
-	- Plugins (Highly recomended)
-		- Breadcrumbs for lemmas.
-		- Omnisearch
-		- Citations with Zotero integration.
-		- Canvas
-		- Dataview: home note and preamble with templater.
-	- Plugins(Very good)
-		- Themes.
-		- Extended Mathjax.
-		- Obsidian vimrc.
-		- Collaborate with github.
-	- Plugin (Specialized)
-		- Excalidraw
-		- Desmos
-		- Templater.
-		- Tasks.
-		- Calendar and Periodic notes.
-		- Linter: YAML -> YAML timestamp.
-		- Chatgpt and copilot.
-		- Vim: core vim plugin
-		  - Scroll offset
-		  - Vimrc Support
-> Make sure that the things are good.
-- Task: create a graph and organize it by project and content.
+### Set up folder structure
+- Files.
+- References
+- "Notes" or "Zettelkasten"
+- Templates
+Then,
+1. Settings -> Files and Links -> Default location for new notes: set it to "Notes" or "Zettelkasten".
+2. Settings -> Files and Links -> Default location for new attachements: "In the folder specified below": Set to "Files".
+## Workshop: create a graph of notes
+- Create the specified graph and organize it by project and content.
 - Use composer to extract a heading.
 - Use composer to merge nodes of the graph.
+- Rename a note.
+- Make a canvas and set up the graph there.
 - Make a longform through embeds.
-- Make a literature note from Zotero.
-- Set-up a home note.
-- (Optional): export the longform.
+- Set a hotkey: Settings -> Hotkey. Set "Toggle to reading view" to Cmd+E.
+- Change your theme: Settings -> Options -> Appearance -> Themes. Mine: ITS Theme
+## Set up a workflow!
+- [[Setup citations]]
+- [[Setup home note]]
+- [[Setup latex suite]]
+- [[Setup quarto]]
+- [[Setup vim]]
+- [[Setup paper export]]
+
+## Reccomended Plugins
+### For writing LaTex
+- Latex suite: snippets to write faster.
+- Extended Mathjax: Enable user-defined latex commands globally.
+### Highly reccomended
+- Omnisearch: adjust hotkeys.
+- Breadcrumbs: track lemmas. %%make this a workflow?%%
+- Zotero integration.
+- Canvas
+- Dataview: home note and preamble with templater.
+### Very good
+- Plugins(Very good)
+	- Obsidian vimrc.
+	- Collaborate with github.
+- Plugin (Specialized)
+	- Excalidraw
+	- Desmos
+	- Templater
+	- Tasks
+	- Calendar and Periodic notes
+	- Linter: YAML -> YAML timestamp
+	- Chatgpt and copilot
 # Additions
 ## Citations with zotero
 Technical set-up (hands on) [[Obsidian, Zotero and Git Technical Set Up]]

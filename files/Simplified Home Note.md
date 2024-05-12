@@ -1,9 +1,11 @@
 #meta
+# Important notes
+%%Add manual links here%%
 # Recently Modified
 ```dataview
 table file.mtime.year + "-" + file.mtime.month + "-" + file.mtime.day as Created 
 sort file.mtime desc
-limit 4
+limit 6
 ```
 # Projects
 ```dataview
