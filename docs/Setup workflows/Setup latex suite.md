@@ -1,4 +1,5 @@
 Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+
 - Install from community plugins
 - Press "enable" 
 - Press "options", or go to settings

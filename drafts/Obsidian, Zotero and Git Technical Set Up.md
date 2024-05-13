@@ -7,7 +7,7 @@
 - Install Zotero Integration Plugin in Obsidian
 	- Configure Settings: 
 		- Add pre-made template to Templates folder add it to Template file -> [get](https://raw.githubusercontent.com/mscott99/matthewscott-blog/main/files/Zotero_Template.md)
-		- Set your settings: [[Zotero connector settings]].
+		- Set your settings: [[Zotero integration settings]].
 ## Make a home note
 - add Dataview
 - Home note ->  [get](https://raw.githubusercontent.com/mscott99/matthewscott-blog/main/files/Simplified%20Home%20Note.md)
