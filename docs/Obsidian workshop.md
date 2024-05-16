@@ -43,10 +43,12 @@ up crucial plugins that will bring your work to the next level.
 	- Team work on project: [[Exact regularization]].
 	- Tasks [[Tasks]]
 ## Why
+[[Workshop slides]]
 - Why spend time improving workflow and how.
-	- Up-front cost for recurring returns.
-	- Avoid repetitive organizational work.
-- Guiding principle
+	- "Free" productivity improvements
+	- Up-front cost for recurring returns; avoid repetitive organizational work.
+	- Make the work more fun; reduce friction.
+- Guiding principle.
 	- Quality and quantity of writing output.
 - Setting
 	- Chaotic generation of ideas, results and learning.
@@ -81,7 +83,7 @@ up crucial plugins that will bring your work to the next level.
 		- Good-enough requirements: brainstorms, single sentences of thought, all are notes.
 # How
 ## Core features of Obsidian
-	- Markdown files: no vendor lock-in. Efficient storage, future-proof, versioning.
+- Markdown files: no vendor lock-in. Efficient storage, future-proof, versioning.
 	- Rich plugin ecosystem.
 	- Base environment
 		- Command pannel
@@ -109,7 +111,7 @@ Then,
 - Change your theme: Settings -> Options -> Appearance -> Themes. Mine: ITS Theme
 ## Set up a workflow!
 - [[Setup citations]]
-- [[Setup home note]]
+- [[Setup home note and dataview]]
 - [[Setup latex suite]]
 - [[Setup quarto]]
 - [[Setup vim]]
