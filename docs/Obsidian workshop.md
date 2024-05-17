@@ -3,7 +3,7 @@ ctime: 2024-05-05
 mtime: 2024-05-12
 title: Graph-based writing
 ---
-See [[index|menu]], [[Workflows]], and [[Workshop slides|slides]]
+See [[Menu|menu]], [[Workflows]], and [[Workshop slides|slides]]
 # Graph-based writing: What? But why?Okay how?
 # What?
 - Demo of my vault:

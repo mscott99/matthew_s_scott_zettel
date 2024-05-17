@@ -1,4 +1,4 @@
-Back to the [[index|menu]].
+Back to the [[Menu|menu]].
 ## Recommended Plugins
 ### For writing LaTex
 - Latex suite: snippets to write faster.

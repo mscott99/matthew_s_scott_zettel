@@ -1,4 +1,4 @@
-%%[[matthew_s_scott_zettel/docs/index|index]], [[Workflows]]%%
+%%[[Menu|Menu]], [[Workflows]]%%
 # But why?
 ---
 ## "Just do the work, not the workflow"
