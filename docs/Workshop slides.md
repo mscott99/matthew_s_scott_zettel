@@ -1,3 +1,5 @@
+# But why?
+---
 ## "Just do the work, not the workflow"
 ### Addressing the haters
 - Up-front cost for recurring returns; avoid repetitive organizational work.
@@ -118,30 +120,17 @@ Have I mentioned a certain plugin?
 - Links are a generalization of tags.
 - Use to describe the *type* of note instead of the *content* (controversial).
 ---
+## Other types of notes
+- Maps of Contents ( #MOC)
+- Project notes ( #project)
+- Literature notes ( #literature)
+- Fleeting notes ( #fleeting, #seedling)
+- Mathematical results ( #theorem)
+---
 ## Folder structure
-- Files
+- Files: Stuff that is not ".md"
 - References
 - "Notes" or "Zettelkasten"
 - Templates
 ---
-# Settings
-1. Settings -> Files and Links -> Default location for new notes: set it to "Notes" or "Zettelkasten".
-2. Settings -> Files and Links -> Default location for new attachments: "In the folder specified below": Set to "Files".
----
-## Workshop first part: create a graph of notes
-- Create the specified graph and organize it by project and content.
-- Use composer to extract a heading.
-- Use composer to merge nodes of the graph.
-- Rename a note.
-- Make a canvas and set up the graph there.
-- Make a longform through embeds.
-- Set a hotkey: Settings -> Hotkey. Set "Toggle to reading view" to Cmd+E.
-- Change your theme: Settings -> Options -> Appearance -> Themes. Mine: ITS Theme
----
-## Set up some workflows!
-- [[Setup citations]]
-- [[Setup home note and dataview]]
-- [[Setup latex suite]]
-- [[Setup quarto]]
-- [[Setup vim]]
-- [[Setup paper export]]
+## Set up some [[Workflows]]!
