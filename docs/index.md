@@ -1,4 +1,5 @@
-# Links
-[[Obsidian, Zotero and Git Technical Set Up|Workflows]]
+# Content
 [[Obsidian workshop|Content of the presentation]]
+[[Workshop slides]]
+[[Workflows]]
 [[Recommended Plugins]]

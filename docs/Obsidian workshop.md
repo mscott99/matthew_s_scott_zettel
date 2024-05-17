@@ -3,8 +3,32 @@ ctime: 2024-05-05
 mtime: 2024-05-12
 title: Graph-based writing
 ---
-See [[index|menu]], [[Obsidian, Zotero and Git Technical Set Up|workflows]]
-Here are the [[Workshop slides|slides]]
+See [[index|menu]], [[Workflows]], and [[Workshop slides|slides]]
+# Graph-based writing: What? But why?Okay how?
+# What?
+- Demo of my vault:
+	- Markdown editor [[Demo note]].
+	- Create note.
+	- Local graph view from [[Counter-Example large ball at origin]].
+	- Theory organisation from [[Markov Chain]]
+	- Full graph view
+	- Tracking dead ends 
+		- [[Bounds on Xnorm Complexity]]
+		- [[Scaling of Tails]]
+	- Current paper.
+		- [[Longform journal uneven sampling 2024]]
+		- [[Journal 2024 map of math.canvas|Journal 2024 map of math]] 
+		- Project note: [[Unevenly Sampled Fourier Generative Recovery Project]]
+		- Citations and literature reviews.
+			- [[@vershyninHighDimensionalProbabilityIntroduction2018]]
+			- [[Coherence in Compressed Sensing]]	
+		- Demo of paper export.
+	- Team work on project: [[Exact regularization]].
+## But Why? Okay, how?
+See [[Workshop slides]]
+## Set up a workflow!
+[[Workflows]]
+[[Recommended Plugins]]
 # Abstract
 What is the best way to structure a research workflow that will maximize
 efficiency and satisfaction? That would be the Zettelkasten method, a system
@@ -23,44 +47,3 @@ will be the hands-on part of the workshop. You will try out Obsidian on your
 own computer. It is a popular markdown editor specialized for this kind of
 workflow. I will guide you through its core features, best practices and setting 
 up crucial plugins that will bring your work to the next level.
-# Graph-based writing: what, why, how
-# What?
-- Demo of my vault: prepare demos.
-	- Show demo note as source and editing mode. [[Demo note]].
-	- Local graph view from [[Counter-Example large ball at origin]].
-	- Full graph view
-	- Tracking dead ends 
-		- [[Bounds on Xnorm Complexity]]
-		- [[Scaling of Tails]]
-	- Current paper.
-		- [[Journal 2024 map of math.canvas|Journal 2024 map of math]] 
-		- Project note: [[Unevenly Sampled Fourier Generative Recovery Project]]
-		- Citations and literature reviews.
-			- [[@vershyninHighDimensionalProbabilityIntroduction2018]]
-			- [[Coherence in Compressed Sensing]]	
-		- Breadcrumbs lemma: see something
-		- Longform. [[Longform journal uneven sampling 2024]]
-		- Demo of paper export.
-	- Team work on project: [[Exact regularization]].
-	- Tasks [[Tasks]]
-## But Why?
-[[Workshop slides]]
-# How
-## Core features of Obsidian
-- Markdown files: no vendor lock-in. small files, future-proof, versioning.
-	- Rich plugin ecosystem.
-	- Base environment
-		- Command pannel
-		- Quick switcher.
-		- Linking (with header and display)
-		- Figures.
-		- Tags: role of tags.
-		- Longforms and embeds.
-## Set up a workflow!
-[[Workflows]]
-[[Recommended Plugins]]
-# Additions
-## Citations with zotero
-Technical set-up (hands on) [[Obsidian, Zotero and Git Technical Set Up]]
-# Related
-[[Obsidian Presentation]].

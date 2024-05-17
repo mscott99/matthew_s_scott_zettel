@@ -1,3 +1,4 @@
+%%[[matthew_s_scott_zettel/docs/index|index]], [[Workflows]]%%
 # But why?
 ---
 ## "Just do the work, not the workflow"
@@ -61,14 +62,13 @@ Contexts include
 	- For navigation
 	- For recall
 	- Are a form of knowledge in themselves.
-
+ 
 ---
 ## Resilience to context-switching.
-- Plurality of organizational structures. (make a graph here) 
-![[Drawing 2024-05-07 12.16.10.excalidraw|center]]
-Organizational structures = contexts.
+Plurality of organizational structures. Organizational structures = contexts.
+![daily note template|300](https://raw.githubusercontent.com/mscott99/matthewscott-blog/main/files/graph.png)
+%%[[Drawing 2024-05-07 12.16.10.excalidraw|original drawing]]%%
 
----
 ---
 # Chapter 3: Pitfals
 ---
@@ -79,8 +79,8 @@ Organizational structures = contexts.
 ## Organizational rabbit hole
 Sometimes the haters are right
 - Up-front cost can be too high (heard of Julia?)
-- Manual organizational work: minimize it!
-- Example: logging your work time manually into excel.
+- Repetitive manual organizational work. Example: logging work time into excel.
+	- Minimize it!
 ---
 ## "Not clean enough to write down"
 Reduce your good-enough standards. Notes are never too...
@@ -133,4 +133,4 @@ Have I mentioned a certain plugin?
 - "Notes" or "Zettelkasten"
 - Templates
 ---
-## Set up some [[Workflows]]!
+## Let's set up some [[Workflows]]!

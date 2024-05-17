@@ -1,4 +1,4 @@
-Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[index|menu]].
 # Abstract
 Export longform notes to latex with automatic embeds, citations and references.
 

@@ -1,4 +1,4 @@
-Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[index|menu]].
 # Abstract
 Setup daily notes with automatically generated templates.
 

@@ -1,3 +1,4 @@
+Back to the [[index|menu]].
 ## Recommended Plugins
 ### For writing LaTex
 - Latex suite: snippets to write faster.

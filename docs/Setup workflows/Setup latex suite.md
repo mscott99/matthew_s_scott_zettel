@@ -1,4 +1,4 @@
-Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[index|menu]].
 
 # Abstract
 Write your latex math using snippets, which is a great speed-up.

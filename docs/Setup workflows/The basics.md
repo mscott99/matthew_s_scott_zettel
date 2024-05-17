@@ -1,3 +1,4 @@
+Back to [[Workflows|workflows]], [[index|menu]].
 # Abstract
 We will set up folders, create a graph of notes, refactor it, and try out canvas.
 ## Set up folder structure

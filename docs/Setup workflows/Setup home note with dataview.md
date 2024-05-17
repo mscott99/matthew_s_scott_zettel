@@ -1,4 +1,4 @@
-Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[index|menu]].
 # Abstract
 Setup a home note which automatically tracks your projects and MOCs. Configure
 obsidian to open to that page by default.

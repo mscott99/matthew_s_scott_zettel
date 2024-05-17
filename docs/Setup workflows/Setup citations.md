@@ -1,4 +1,4 @@
-Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[index|menu]].
 # Abstract
 Import your citations from zotero, represent sources as notes in your vault, and make literature reviews. 
 # Instructions

@@ -1,4 +1,4 @@
-Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[index|menu]].
 # Abstract 
 Have your .qmd files amongst your .md files in your vault, and export to html directly from obsidian.
 
