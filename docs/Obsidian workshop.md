@@ -10,24 +10,24 @@ See [[Menu|menu]], [[Workflows]], and [[Workshop slides|slides]]
 - Demo of my vault:
 	- Markdown editor [[Demo note]].
 	- Create note.
-	- Local graph view from [[Counter-Example large ball at origin]].
-	- Theory organisation from [[Markov Chain]]
 	- Full graph view
-	- Tracking dead ends 
+	- Theory organization from [[Markov Chain]]
+	- Tracking dead ends
 		- [[Bounds on Xnorm Complexity]]
 		- [[Scaling of Tails]]
+	- Team work on project: [[Exact regularization]].
+	- Citations and literature reviews.
+		- [[@vershyninHighDimensionalProbabilityIntroduction2018]]
+		- [[Coherence in Compressed Sensing]]	
 	- Current paper.
 		- [[Longform journal uneven sampling 2024]]
 		- [[Journal 2024 map of math.canvas|Journal 2024 map of math]] 
 		- Project note: [[Unevenly Sampled Fourier Generative Recovery Project]]
-		- Citations and literature reviews.
-			- [[@vershyninHighDimensionalProbabilityIntroduction2018]]
-			- [[Coherence in Compressed Sensing]]	
 		- Demo of paper export.
-	- Team work on project: [[Exact regularization]].
 ## But Why? Okay, how?
 See [[Workshop slides|the slides]].
 ## Set up a [[Workflows|workflow]]!
+https://mscott99.github.io/matthew_s_scott_zettel/Menu/
 
 # Abstract
 What is the best way to structure a research workflow that will maximize

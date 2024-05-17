@@ -134,3 +134,4 @@ Have I mentioned a certain plugin?
 - Templates
 ---
 ## Let's set up some [[Workflows]]!
+https://mscott99.github.io/matthew_s_scott_zettel/Menu/
