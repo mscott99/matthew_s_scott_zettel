@@ -6,6 +6,7 @@ title: Graph-based writing
 See [[Menu|menu]], [[Workflows]], and [[Workshop slides|slides]]
 # Graph-based writing: What? But why?Okay how?
 # What?
+- Disclaimer: this workshop is sponsored <https://github.com/mscott99/Obsidian-Paper-Export>.
 - Demo of my vault:
 	- Markdown editor [[Demo note]].
 	- Create note.
