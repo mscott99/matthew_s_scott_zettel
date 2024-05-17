@@ -1,9 +1,7 @@
----
-ctime: 2024-05-12
-mtime: 2024-05-12
----
 Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
-
+# Abstract
+Import your citations from zotero, represent sources as notes in your vault, and make literature reviews. 
+# Instructions
 1. Install Zotero <https://www.zotero.org/download/>.
 2. Install BetterBibtex to Zotero: <https://retorque.re/zotero-better-bibtex/installation/>.
 3. Install Zotero Connector in your browser. <https://www.zotero.org/download/connectors>.

@@ -4,6 +4,7 @@ mtime: 2024-05-12
 title: Graph-based writing
 ---
 See [[index|menu]], [[Obsidian, Zotero and Git Technical Set Up|workflows]]
+Here are the [[Workshop slides|slides]]
 # Abstract
 What is the best way to structure a research workflow that will maximize
 efficiency and satisfaction? That would be the Zettelkasten method, a system

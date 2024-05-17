@@ -1,3 +1,4 @@
+Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
 #workshop #reference #obsidian 
 # Abstract
 Read and tick off tasks anywhere in your vault from a single location.

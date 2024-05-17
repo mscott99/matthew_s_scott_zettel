@@ -12,4 +12,4 @@ obsidian to open to that page by default.
 
 # Alternative
 Many people use daily notes together with templates for this purpose. If that is the road
-you prefer, see [[Setup daily notes and dataview]]
+you prefer, see [[Setup daily notes]].
