@@ -1,6 +1,8 @@
 Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
+# Abstract 
+Have your .qmd files amongst your .md files in your vault, and export to html directly from obsidian.
 
-> [!Warning] Rendering quarto this way will create files in your vault.
+> [!Warning] Rendering quarto this way will create export files within your vault folder.
 
 1. Plugin: Qmd as md.
 2. Settings -> Files and links -> detect all file extensions.

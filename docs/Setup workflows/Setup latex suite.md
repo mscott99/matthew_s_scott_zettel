@@ -1,5 +1,9 @@
 Back to [[Obsidian, Zotero and Git Technical Set Up|workflows]], [[index|menu]].
 
+# Abstract
+Write your latex math using snippets, which is a great speed-up.
+
+# Instructions
 - Install from community plugins
 - Press "enable" 
 - Press "options", or go to settings
