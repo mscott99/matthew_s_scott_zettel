@@ -12,12 +12,12 @@ Back to the [[Menu|menu]].
 ### Very good
 - Plugins(Very good)
 	- Obsidian vimrc.
-	- Collaborate with github.
+	- Collaborate with github (not a plugin, just a good idea).
 - Plugin (Specialized)
-	- Excalidraw
+	- Excalidraw: hand-writing, graphs with links to your vault.
 	- Desmos
-	- Templater
-	- Tasks
-	- Calendar and Periodic notes
-	- Linter: YAML -> YAML timestamp
-	- Chatgpt and copilot
+	- Templater: Automatic template inserting associated with folders.
+	- Tasks: Many features to fetch and organize tasks
+	- Calendar and Periodic notes.
+	- Linter
+	- Chatgpt and copilot (many such plugins).
