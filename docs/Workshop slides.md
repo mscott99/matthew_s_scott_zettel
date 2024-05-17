@@ -5,7 +5,7 @@
 ### Addressing the haters
 - Up-front cost for recurring returns; avoid repetitive organizational work.
 - Automated organizational work.
-- Existence of free productivity improvements.
+- Existence of free productivity improvements.to extract a
 - Frictionless work is fun!
 ---
 ## Guiding principles
