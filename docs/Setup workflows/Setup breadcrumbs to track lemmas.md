@@ -1,4 +1,4 @@
-Back to [[Workflows|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[Menu]].
 # Abstract
 Automatic tracking of lemma trees, MOC trees and other trees, all displayed in a side panel.
 

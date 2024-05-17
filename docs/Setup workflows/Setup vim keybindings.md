@@ -1,4 +1,4 @@
-Back to [[Workflows|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[Menu]].
 # Abstract
 Make editing in Obsidian blazingly fast.
 # Instructions

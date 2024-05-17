@@ -1,4 +1,4 @@
-Back to [[Workflows|workflows]], [[menu]].
+Back to [[Workflows|workflows]], [[Menu]].
 # Abstract
 Setup daily notes with automatically generated templates.
 

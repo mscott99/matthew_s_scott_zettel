@@ -25,7 +25,7 @@ See [[Menu|menu]], [[Workflows]], and [[Workshop slides|slides]]
 		- Demo of paper export.
 	- Team work on project: [[Exact regularization]].
 ## But Why? Okay, how?
-See [[Workshop slides|the slides]]
+See [[Workshop slides|the slides]].
 ## Set up a [[Workflows|workflow]]!
 
 # Abstract

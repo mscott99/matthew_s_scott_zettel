@@ -1,4 +1,4 @@
-Back to [[Workflows|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[Menu]].
 # Abstract
 Export longform notes to latex with automatic embeds, citations and references.
 

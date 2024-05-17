@@ -1,4 +1,4 @@
-Back to [[Workflows|workflows]], [[index|menu]].
+Back to [[Workflows|workflows]], [[Menu]].
 #workshop #reference #obsidian 
 # Abstract
 Read and tick off tasks anywhere in your vault from a single location.
