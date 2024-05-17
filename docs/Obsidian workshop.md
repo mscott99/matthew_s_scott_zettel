@@ -25,10 +25,9 @@ See [[Menu|menu]], [[Workflows]], and [[Workshop slides|slides]]
 		- Demo of paper export.
 	- Team work on project: [[Exact regularization]].
 ## But Why? Okay, how?
-See [[Workshop slides]]
-## Set up a workflow!
-[[Workflows]]
-[[Recommended Plugins]]
+See [[Workshop slides|the slides]]
+## Set up a [[Workflows|workflow]]!
+
 # Abstract
 What is the best way to structure a research workflow that will maximize
 efficiency and satisfaction? That would be the Zettelkasten method, a system
