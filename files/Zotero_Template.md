@@ -5,6 +5,7 @@
 {% endif %}{% if conferenceName %}conference: "{{conferenceName}}"
 {% endif %}{% if publisher %}publisher: "{{publisher}}"
 {% endif %}{% if title %}title: "{{title}}"{% endif %}
+{% if bibliography %}bibliography: "{{bibliography}}"{% endif %}
 ---
 #literature
 # {{title}}
