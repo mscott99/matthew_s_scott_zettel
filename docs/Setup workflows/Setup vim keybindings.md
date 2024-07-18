@@ -1,3 +1,4 @@
+[[Vim]]
 Back to [[Workflows|workflows]], [[Menu]].
 # Abstract
 Make editing in Obsidian blazingly fast.

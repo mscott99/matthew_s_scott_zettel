@@ -9,7 +9,7 @@ Back to the [[Menu|menu]].
 - [[Setup daily notes for journaling and navigation]]
 - [[Setup home note with dataview]]
 - [[Setup latex suite]]
-- [[Setup paper export]]
+- [[Obsidian Math Paper Writing Plugin]]
 - [[Setup quarto]]
 - [[Setup tasks]]
 - [[Setup vim keybindings]]
