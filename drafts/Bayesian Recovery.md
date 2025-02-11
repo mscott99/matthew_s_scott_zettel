@@ -32,10 +32,8 @@ my attempt at clarifying the theory within, with a focus on connecting it to my
 understanding of probability theory.
 
 ## Setting up the setting
-Given a signal $z^*
-\in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$,
-we compute $y:= Az^*$ which we understand as measuring $z^*$ with a measurement matrix $A \in \mathbb{R}^{m
-\times n}$ with $m \leq n$ measurements. This gives us the (known) measurement vector $y:= Az^*$. For simplicity, we assume that the random variable $y \in  \mathbb{R}^m$
+Given a signal $z^* \in \mathbb{R}^n$ distributed according to some (prior) distribution $P_{z}$,
+we compute $y:= Az^*$ which we understand as measuring $z^*$ with a measurement matrix $A \in \mathbb{R}^{m \times n}$ with $m \leq n$ measurements. This gives us the (known) measurement vector $y:= Az^*$. For simplicity, we assume that the random variable $y \in  \mathbb{R}^m$
 admits a density, and also that $P_z(\cdot)$ is compactly supported. We can then examine the posterior variable
 $\hat{z} \sim p_{z^*|y}(\cdot)$ to see if $\hat{z}$ tends to be a good approximation to $z^*$. 
 
