@@ -1,4 +1,7 @@
-site_name: Mattthew's Blog
+site_name: Obsidian for research
+site_author: Matthew S. Scott
+site_url: https://mscott99.github.io/matthew_s_scott_zettel/
+repo_url: https://github.com/mscott99/matthew_s_scott_zettel
 
 theme:
     name: 'material'
@@ -50,6 +53,10 @@ plugins:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
+
+extra:
+  homepage: https://mscott99.github.io/
+
+copyright: Matthew S. Scott &middot; <a href="https://mscott99.github.io/">mscott99.github.io</a>
